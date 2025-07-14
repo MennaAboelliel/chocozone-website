@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cherry Chocolate</title>
+    <link rel="icon" href="../Photos/logo.png">
+    <link rel="stylesheet" href="../css/product.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+
+    <style>
+        .container{
+            width: 90%;
+            margin-top: 40px;
+        }
+        .details h2{
+            font-size: 40px;
+        }
+        .details h4{
+            font-size: 28px;
+        }
+        .details p , .details span{
+            font-size: 20px;
+        }
+        .product-button{
+            padding: 6px 18px;
+            font-size: 18px;
+            position: relative;
+            top: 30px;
+            margin-right: 10px;
+        }
+        .like-button{
+            position: relative;
+            top: 43px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="image">
+            <img src="../chocolates/imp/cherry chocolatee.jpeg" alt="berry chocolate">
+        </div>
+
+        <div class="details">
+            <h2>Cherry Chocolate</h2>
+            <h4>250LE</h4>
+            <p><span>Chocolate: </span> White Chcoclate with Caramel Taste.</p>
+            <p><span>DriedFruite: </span> Dried Cherries.</p>
+            <p><span>Nuts: </span> Roasted Almonds.</p>
+            <p><span>Weight: </span> 230g</p>
+            
+            <button class="product-button">REMOVE FROM CART</button>
+            <button class="like-button"><svg
+                    fill={filled ? fill : "none"}
+                    height={size || height || 24}
+                    viewBox="0 0 24 24"
+                    width={size || width || 24}
+                    xmlns="http://www.w3.org/2000/svg"
+                    {...props}>
+                    <path
+                      d="M12.62 20.81c-.34.12-.9.12-1.24 0C8.48 19.82 2 15.69 2 8.69 2 5.6 4.49 3.1 7.56 3.1c1.82 0 3.43.88 4.44 2.24a5.53 5.53 0 0 1 4.44-2.24C19.51 3.1 22 5.6 22 8.69c0 7-6.48 11.13-9.38 12.12Z"
+                      stroke={fill}
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={1.5}/>
+                  </svg>
+            </button>
+        </div>
+
+    </div>
+    
+</body>
+</html>

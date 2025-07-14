@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f4eee9;
+}
+html::-webkit-scrollbar {
+    width: 6px;
+}
+   
+html::-webkit-scrollbar-track {
+    background: #f4eee9;
+}
+   
+html::-webkit-scrollbar-thumb {
+    background: #BF8360;
+    border: 3px solid #BF8360;
+    border-radius: 20px;
+}
+html{
+   cursor : url(../Photos/cursor.png) ,auto;
+}
+
+
+@font-face {
+    font-family: peach;
+    src: url(../fonts/peach-chery.otf);
+}
+@font-face {
+    font-family: mestika;
+    src: url(../fonts/Mestika.otf);
+}
+
+.container{
+    margin: auto;
+    width: 70%;
+    height: fit-content;
+    background-color: #D9BCA3;
+    color: #40110D;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    border-radius: 30px;
+    padding: 20px;
+}
+.image{
+    width: 40%;
+}
+.image img{
+    width: 80%;
+    border-radius: 30px;
+}
+.details{
+    width: 60%;
+}
+.details h2{
+    font-family: mestika;
+    color: #40110D;
+    font-size: 35px;
+}
+.details h4{
+    font-family: poppins thin;
+    font-weight: 200;
+    font-size: 24px;
+    color: #f4eee9;
+    margin: 0;
+}
+.details p{
+    font-family: poppins thin;
+    margin: 15px 0px;
+}
+.details span{
+    font-size: 18px;
+    font-family: poppins;
+    font-weight: 500;
+    color: #BF8360;
+}
+
+ 
+.buttons{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.product-button{
+    background-color: #8C071F;
+    color: #f4eee9;
+    letter-spacing: 1px;
+    padding: 6px 18px;
+    font-family: poppins thin;
+    font-size: 15px;
+    font-weight: 300;
+    border-radius: 20px;
+    border: #8C071F;
+    position: relative;
+    bottom: 25px;
+    transition: background-color 0.5s ease-in-out;
+}
+.product-button:hover , .like-button:hover{
+    background-color: #BF8360;
+    color: #40110D;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+.like-button:hover svg{
+    fill: #40110D;
+    transition: 0.5s ease-in-out;
+}
+.like-button{
+    background-color: #8C071F;
+    width: 40px;
+    height: 40px;
+    font-family: poppins thin;
+    border-radius: 50%;
+    border: #8C071F;
+    position: relative;
+    bottom: 12px;
+    margin: 20px 0px 0px 10px;
+    transition: background-color 0.5s ease-in-out;
+}
+.like-button svg{
+    width: 90%;
+    fill: #f4eee9;
+    transition: all 0.5s ease-in-out;
+}

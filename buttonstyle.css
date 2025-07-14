@@ -1,0 +1,77 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding: 6px 20px;
+  border: 1px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10rem;
+  transition: all 0.02s;
+  font-weight: bold;
+  cursor: pointer;
+  color: #40110d;
+  font-family: poppins thin;
+  letter-spacing: 2px;
+  z-index: 0;
+  box-shadow:  0px 1px 3px rgba(64, 17, 13, 0.5);
+  transition: all 0.5s ease-in-out;
+}
+
+.button:hover {
+  background-color: #f4eee9;
+  color: #BF8360;
+  transition: all 0.5s ease-in-out;
+}
+
+.button:active {
+  transform: scale(0.97);
+}
+
+.hoverEffect {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.hoverEffect div {
+  background: #f4eee9;
+  background: linear-gradient(
+    90deg,
+    #f4eee9 0%,
+    #BF8360 49%,
+    #D9BCA3 100%
+  );
+  border-radius: 40rem;
+  width: 10rem;
+  height: 10rem;
+  transition: 0.4s;
+  filter: blur(20px);
+  animation: effect infinite 3s linear;
+  opacity: 0.5;
+}
+
+.button:hover .hoverEffect div {
+  width: 8rem;
+  height: 8rem;
+}
+
+@keyframes effect {
+  0% {
+    transform: rotate(0deg);
+  }
+  50%{
+    transform: rotate(180deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
