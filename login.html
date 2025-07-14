@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in Page</title>
+    <link rel="stylesheet" href="../Web Project/css/Login_style.css">
+    <link rel="icon" href="./Photos/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    
+    <div class="background">
+    
+      <div class="login-container">
+        <form id="loginForm" class="login-form">
+            <h2 class="title">login</h2>
+
+            <div class="input-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="" required>
+            </div>
+
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="" required>
+            </div>
+
+            <button type="submit" class="submit-btn"> Log in</button>
+
+            <p class="error-message" id="error-message"></p>
+            <div id="loading-spinner" style="display:none;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 150">
+                <path class="animated-path"
+                  fill="none" 
+                  stroke="#d9bca3" 
+                  stroke-width="14" 
+                  stroke-linecap="round" 
+                  stroke-dasharray="300 385" 
+                  stroke-dashoffset="0"
+                  d="M275 75c0 31-27 50-50 50-58 0-92-100-150-100-28 0-50 22-50 50s23 50 50 50c58 0 92-100 150-100 24 0 50 19 50 50Z">
+                </path></svg>
+            </div>
+        </form>
+
+        <div class="social-message">
+            <div class="line"></div>
+            <p class="message">Login with social accounts</p>
+            <div class="line"></div>
+        </div>
+
+        <div class="social-icons">
+            <button aria-label="Log in with Google" class="icon">
+                <i class="fa fa-google fa-2x"></i>
+            </button>
+            <button aria-label="Log in with Twitter" class="icon">
+                <i class="fa fa-twitter fa-2x"></i>
+            </button>
+            <button aria-label="Log in with GitHub" class="icon">
+                <i class="fa fa-github fa-2x"></i>
+            </button>
+        </div>
+
+        <p class="signup">Don't have an account?
+            <a rel="noopener noreferrer" href="./register.html">Sign up</a>
+        </p>
+
+      </div>
+    </div>
+
+    <script src="./login_script.js"></script>
+</body>
+</html>
