@@ -32,7 +32,7 @@ For any feedback or inquiries:
 **Your Name** – [LinkedIn](## 📬 Contact
 
 For any feedback or inquiries:  
-**Your Name** – [LinkedIn](https://www.linkedin.com/in/your-profile)  
+**Menna Ahmed Abo Elliel** – [LinkedIn](https://www.linkedin.com/in/your-profile)  
 Or open an issue in the repo.
 
 ---
@@ -42,4 +42,3 @@ Or open an issue in the repo.
 
 ---
 
-> This project was created for learning and showcasing front-end web development skills.
