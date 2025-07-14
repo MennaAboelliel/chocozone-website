@@ -6,7 +6,7 @@ The website showcases various chocolate products and provides a clean, user-frie
 ---
 
 ## 💻 Live Demo
-👉 [Click here to view the live site] (https://github.com/MennaAboelliel/chocozone-website/)
+👉 [Click here to view the live site] (http://127.0.0.1:5500/Web%20Project/index.html)
 
 
 ## 📁 Features
